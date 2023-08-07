@@ -1,0 +1,44 @@
+//Reggies
+#title { 
+    h1 {
+        text-align: center;
+        font-size: 300px;
+        width: 100%;
+    }
+}
+
+.content1 {
+    h1,h2,h3,h4,h5,p {
+        padding: 4px;
+    }
+}
+
+#aboutus {
+    padding: 8px;
+}
+
+//Tablet
+@media (max-width: 900px) {
+
+    #title { 
+        h1 {
+            text-align: center;
+            font-size: 150px;
+            width: 100%;
+        }
+    }
+
+}
+
+//Phone
+@media (max-width: 450px) {
+
+    #title { 
+        h1 {
+            text-align: center;
+            font-size: 100px;
+            width: 100%;
+        }
+    }
+
+}
