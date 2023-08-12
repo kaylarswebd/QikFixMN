@@ -1,26 +1,13 @@
-body .col, body .row {
-  padding: 0;
-  margin: 0;
-}
-
 #title h1 {
   text-align: center;
   font-size: 300px;
   width: 100%;
 }
 
-#aboutus {
-  padding: 8px;
-}
-
 #aboutus img {
   background-color: aqua;
-  height: 50px;
-  width: 50px;
-}
-
-footer {
-  background-color: none;
+  height: 150px;
+  width: 150px;
 }
 
 @media (max-width: 900px) {
