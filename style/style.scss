@@ -1,50 +1,24 @@
 //Reggies
-body {
-    .col, .row {
-        padding: 0;
-        margin: 0;    
-    }
-}
 
-#title { 
-    h1 {
-        text-align: center;
-        font-size: 300px;
-        width: 100%;
-    }
+#title {
+    text-align: center;
+    width: 100%;
+    height: auto;
 }
-
 
 #aboutus {
     img {
         height: 150px;
         width: 250px;
-        border-radius: 25%;
+        border-radius: 50%;
     }
 }
 
-//Tablet
-@media (max-width: 900px) {
-
-    #title { 
-        h1 {
-            text-align: center;
-            font-size: 150px;
-            width: 100%;
-        }
+#icon {
+    img {
+        width: 50px;
+        height: 50px;
     }
-
 }
 
-//Phone
-@media (max-width: 450px) {
 
-    #title { 
-        h1 {
-            text-align: center;
-            font-size: 100px;
-            width: 100%;
-        }
-    }
-
-}
