@@ -1,4 +1,11 @@
 //Reggies
+body {
+    .col, .row {
+        padding: 0;
+        margin: 0;    
+    }
+}
+
 #title { 
     h1 {
         text-align: center;
@@ -10,12 +17,11 @@
 
 #aboutus {
     img {
-        background-color: aqua;
         height: 150px;
-        width: 150px;
+        width: 250px;
+        border-radius: 25%;
     }
 }
-
 
 //Tablet
 @media (max-width: 900px) {
