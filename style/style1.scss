@@ -1,7 +1,13 @@
+
+body {
+    background-image: url(/video/theFuture.mp4);
+    background-size: contain;
+
+}
+
 #background {
     text-align: center;
     background-position: center;
-    padding-left: 16px;
 
     #button {
         background-color: rgb(173, 36, 36);
@@ -20,7 +26,6 @@
 }
 
 #socials {
-    padding-left: 16px;
     width: 100%;
     height: auto;
     text-align: center;

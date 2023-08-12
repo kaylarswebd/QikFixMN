@@ -1,15 +1,26 @@
+body .col, body .row {
+  padding: 0;
+  margin: 0;
+}
+
 #title h1 {
   text-align: center;
   font-size: 300px;
   width: 100%;
 }
 
-.content1 h1, .content1 h2, .content1 h3, .content1 h4, .content1 h5, .content1 p {
-  padding: 4px;
-}
-
 #aboutus {
   padding: 8px;
+}
+
+#aboutus img {
+  background-color: aqua;
+  height: 50px;
+  width: 50px;
+}
+
+footer {
+  background-color: none;
 }
 
 @media (max-width: 900px) {
@@ -19,10 +30,12 @@
     width: 100%;
   }
 }
+
 @media (max-width: 450px) {
   #title h1 {
     text-align: center;
     font-size: 100px;
     width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
