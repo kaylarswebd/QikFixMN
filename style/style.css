@@ -5,9 +5,9 @@
 }
 
 #aboutus img {
-  height: 150px;
+  height: auto;
   width: 250px;
-  border-radius: 10%;
+  border-radius: 1000%;
 }
 
 #icon img {
