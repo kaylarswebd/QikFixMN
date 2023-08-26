@@ -1,7 +1,24 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+#intro {
+  text-align: center;
+}
+
+#asdf {
+  font-size: 50px;
+}
+
 #title {
   text-align: center;
   width: 100%;
   height: auto;
+}
+
+#aboutus {
+  text-align: center;
 }
 
 #aboutus img {
@@ -13,4 +30,5 @@
 #icon img {
   width: 50px;
   height: 50px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
