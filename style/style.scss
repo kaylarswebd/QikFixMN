@@ -1,15 +1,9 @@
 //Reggies
-
-* {
+*, body {
     background-color: black;
     color: white;
-}
-
-#intro {
     text-align: center;
-}
-#asdf {
-    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #title {
@@ -19,10 +13,8 @@
 }
 
 #aboutus {
-    text-align: center;
     img {
-        height: auto;
-        width: 250px;
+
         border-radius: 1000%;
     }
 }

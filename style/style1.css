@@ -2,14 +2,12 @@
   text-align: center;
   background-position: center;
 }
-
 #background #button {
-  background-color: #ad2424;
+  background-color: rgb(173, 36, 36);
   border: none;
   margin-top: 24px;
   margin-bottom: 30px;
 }
-
 #background img {
   display: block;
   margin-left: auto;
@@ -23,7 +21,6 @@
   height: auto;
   text-align: center;
 }
-
 #socials img {
   height: 50px;
   width: 50px;
@@ -34,5 +31,4 @@
   left: 0;
   bottom: 0;
   width: 100%;
-}
-/*# sourceMappingURL=style1.css.map */
+}/*# sourceMappingURL=style1.css.map */
